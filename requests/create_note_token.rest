@@ -1,0 +1,11 @@
+post http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IktpbmdLb2RlIiwiaWQiOiI1ZTA5MzMyMzQxYzBkMjVhZTRjNDJhYzciLCJpYXQiOjE1Nzc3NDEzOTB9.8zK7BBhbdu8bHi2XeO16U_6zgNaTiHvO1tI2BmumIk4
+# Authorization: bearer INVALIDeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IktpbmdLb2RlIiwiaWQiOiI1ZTA5MzMyMzQxYzBkMjVhZTRjNDJhYzciLCJpYXQiOjE1Nzc3NDEzOTB9.8zK7BBhbdu8bHi2XeO16U_6zgNaTiHvO1tI2BmumIk4
+
+# token is for KingKode user
+
+{
+    "content": "Note test with token!",
+    "important": true
+}
